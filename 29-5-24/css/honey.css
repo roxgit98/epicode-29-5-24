@@ -10,21 +10,24 @@ header {
   background-color: #fbf7e3;
   display: flex;
   justify-content: space-evenly;
-  padding: 3%;
+  min-height: 100px;
 }
 
 .pulsante {
-  background-color: #f3df85;
+  background-color: #ffdf7f;
   width: 17%;
-  border-radius: 15px;
+  border-radius: 30px;
+  height: 40px;
+  position: relative;
+  top: 30px;
 }
 
 .logo {
-  width: 40px;
-  height: 40px;
+  width: 55px;
+  height: 55px;
   float: inline-start;
   object-fit: contain;
-  padding: 3%;
+  padding: 7%;
 }
 
 .pulsante p {
@@ -36,34 +39,37 @@ header {
   font-weight: 600;
 }
 
-.pulsanteShop {
-  background-color: #f3df85;
-  width: 15%;
-  border-radius: 15px;
+#pulsanteShop {
+  background-color: #ffdf7f;
+  width: 20%;
+  border-radius: 30px;
+  height: 55px;
+  position: relative;
+  top: 22px;
 }
 
-.pulsanteShop p {
+#pulsanteShop p {
   margin: 0;
   text-align: center;
   position: relative;
-  top: 10px;
+  top: 18px;
   color: #612406;
   font-weight: 600;
 }
 
-.contenutoSotto {
+#contenutoSotto {
   background-color: #fbf7e3;
   width: 95%;
   margin-inline: auto;
-  height: 767px;
-  padding: ;
+  min-height: 767px;
+  padding: 1%;
+  border-radius: 20px;
 }
 
-.immagineSotto {
-  width: 490px;
-  height: 490px;
-  position: relative;
-  left: 10px;
+#immagineSotto {
+  width: 535px;
+  height: 400px;
+  object-fit: contain;
 }
 
 footer h1 {
@@ -72,15 +78,29 @@ footer h1 {
   padding: 2%;
 }
 
-.contenutoSotto > h3,
+#contenutoSotto > h3,
 p {
   color: #612406;
 }
 
-.contenutoSotto h3 {
+#contenutoSotto h3 {
   font-weight: 900;
 }
 
-.contenutoSotto p {
-  font-weight: 500;
+main h1 {
+  color: #612406;
+  font-weight: 900;
+}
+
+#contenitoreCard {
+  display: flex;
+  gap: 10px;
+}
+.card {
+  background-color: #fbf7e3;
+  width: 50%;
+}
+
+.immagineCard {
+  width: 50px;
 }
