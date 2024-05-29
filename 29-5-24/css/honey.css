@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #fbf7e3;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 3%;
+}
+
+.pulsante {
+  background-color: #f3df85;
+  width: 17%;
+  border-radius: 15px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  float: inline-start;
+  object-fit: contain;
+  padding: 3%;
+}
+
+.pulsante p {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  color: #612406;
+  font-weight: 600;
+}
+
+.pulsanteShop {
+  background-color: #f3df85;
+  width: 15%;
+  border-radius: 15px;
+}
+
+.pulsanteShop p {
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  color: #612406;
+  font-weight: 600;
+}
+
+.contenutoSotto {
+  background-color: #fbf7e3;
+  width: 95%;
+  margin-inline: auto;
+  height: 767px;
+  padding: ;
+}
+
+.immagineSotto {
+  width: 490px;
+  height: 490px;
+  position: relative;
+  left: 10px;
+}
+
+footer h1 {
+  color: #612406;
+  font-weight: 900;
+  padding: 2%;
+}
+
+.contenutoSotto > h3,
+p {
+  color: #612406;
+}
+
+.contenutoSotto h3 {
+  font-weight: 900;
+}
+
+.contenutoSotto p {
+  font-weight: 500;
+}
